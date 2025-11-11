@@ -7,8 +7,6 @@ y = [22, 34, 13, 15, 27, 18, 16]
 najtoplije_vreme = max(y)
 najtopliji_dan = x[y.index(najtoplije_vreme)]
 
-print(najtopliji_dan)
-
 plt.plot(x, y)
 
 plt.xlabel('x')
